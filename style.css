@@ -43,10 +43,17 @@ a {
 }
 
 .logo {
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: #102a43;
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  width: 185px;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 58px;
+  object-fit: contain;
 }
 
 nav {
@@ -358,6 +365,8 @@ footer strong {
     padding: 17px 0;
     flex-direction: column;
     gap: 12px;
+    .logo {width: 165px;
+          }
   }
 
   nav {
