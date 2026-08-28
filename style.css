@@ -359,10 +359,11 @@ footer strong {
   }
 }
 
-@media (max-width: 650px) .logo {
-  width: 165px;
-}
-{
+@media (max-width: 650px) {
+  .logo {
+    width: 165px;
+  }
+
   .nav-container {
     min-height: auto;
     padding: 17px 0;
